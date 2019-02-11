@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ 
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 200px;
+    z-index: 1;
+}
+ 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+ 
+.dropdown-content a:hover {background-color: white;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: red;}
+ 
+</style>
+</head>
+<body background="C:\Users\UPO000\Desktop\Project\movie.jpg">
+
+<hr>
+<div class="dropdown">
+<button class="dropbtn">Cities</button>
+<div class="dropdown-content">
+ 
+<a href="C:\Users\UPO000\Desktop\Project\Hyderabad.html"> Hyderabad </a>
+<a href="C:\Users\UPO000\Desktop\Project\Chennai.html"> Chennai</a>
+<a href="C:\Users\UPO000\Desktop\Project\Banglore.html"> Banglore</a>
+ 
+</div>
+</div>
+<button class="dropbtn" onclick="alert('There are no coupons available currently!')">Offers</button>
+<button class="dropbtn" onclick="alert('There are no vouchers available currently!')">GiftVouchers </button>
+ 
+<hr>
+
+</body>
+</html>
