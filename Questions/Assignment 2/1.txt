@@ -1,0 +1,121 @@
+package customer.org.in;
+
+public class Customer {
+
+		private int Id;
+		private  String name;
+		private char gender;
+
+		public Customer( int Id,  String name,char gender) {
+			this.Id = Id;
+			this.name = name;
+			this.gender = gender;
+			
+			
+		}
+
+		public int getId() {
+			return Id;
+		}
+
+		public   String getName() {
+			return name;
+		}
+
+		public char getGender() {
+			return gender;
+		}
+
+		@Override
+		public String toString() {
+			return "Customer [Id=" + Id + ", name=" + name + "]";
+		}
+}
+
+-------------------------------------------------Account class-------------------------------------------------------------
+package customer.org.in;
+
+
+	public class Account {
+		private int id;
+		private Customer customer;
+		private double balance;
+
+		public Account(int id, Customer customer,double balance) {
+			this.id = id;
+			this.customer = customer;
+			this.balance = balance;
+			
+		}
+
+		@Override
+		public String toString() {
+			return "Account [id=" + id + ", customer=" + customer + ", balance=" + balance + "]";
+		}
+
+		public int getId() {
+			return id;
+		}
+
+		
+
+		public Customer getCustomer() {
+			return customer;
+		}	
+
+		public double getBalance() {
+			return balance;
+		}
+
+		public void setBalance(double balance) {
+			this.balance = balance;
+		}
+		
+	   public double deposit( double amount) 
+	   {
+		   System.out.println("Amount deposited");
+	   return amount+balance;	
+	}
+	  
+	   public double withdraw( double amount)
+	   {
+		   if(balance>= amount)
+		   {
+			  System.out.println("Subtract amount to balance");
+			  balance=balance-amount;
+		   }
+			   else
+			   {
+				   System.out.println("amount withdrawn exceed the current balance");
+			  
+		   }
+		   return balance;
+	   
+	}
+}
+-------------------------------------------------MainClass-----------------------------------------------------------------
+package customer.org.in;
+
+import java.util.Scanner;
+
+public class Accountcustomer {
+
+
+		public static void main(String[] args)
+{
+			Scanner sc=new Scanner(System.in);
+			System.out.println("Enter amount");
+			double am=sc.nextDouble();
+			
+			Customer c = new Customer(1,"mahesh",'m');
+			Account a3 = new Account(1234,c,9999.77);
+			System.out.println("Account details");
+			System.out.println(a3);
+			System.out.println(a3.deposit(100));
+			System.out.println(a3.withdraw(am));
+		}
+
+
+}
+
+
