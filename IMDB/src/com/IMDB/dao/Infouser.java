@@ -10,9 +10,13 @@ public class Infouser {
 	String mobile;
 	String country;
 
+	
 	public String getFirstname() {
 		return firstname;
 	}
+	
+
+	
 	public void setFirstname(String firstname) {
 		this.firstname = firstname;
 	}
@@ -56,6 +60,16 @@ public class Infouser {
 	public Infouser() {
 		super();
 	}
+	
+	
+	
+	
+	public Infouser(String username, String password) {
+		super();
+		this.username = username;
+		this.password = password;
+	}
+	
 	
 	public Infouser(String firstname, String lastname, String username, String email, String password, String mobile,
 			String country) {
