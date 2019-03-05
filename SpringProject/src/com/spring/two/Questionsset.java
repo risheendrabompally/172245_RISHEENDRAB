@@ -1,17 +1,18 @@
 package com.spring.two;
 
-import java.util.List;
+import java.util.Set;
 
-public class Questions {
+public class Questionsset {
+	
 	private int questionId;
 	private String question;
-	private List<String> answers;
+	private Set<String> answers;
 	
-	public Questions() {
+	public Questionsset() {
 		super();
 	}
 
-	public Questions(int questionId, String question, List<String> answers) {
+	public Questionsset(int questionId, String question, Set<String> answers) {
 		super();
 		this.questionId = questionId;
 		this.question = question;
@@ -34,11 +35,11 @@ public class Questions {
 		this.question = question;
 	}
 
-	public List<String> getAnswers() {
+	public Set<String> getAnswers() {
 		return answers;
 	}
 
-	public void setAnswers(List<String> answers) {
+	public void setAnswers(Set<String> answers) {
 		this.answers = answers;
 	}
 	
@@ -46,4 +47,5 @@ public class Questions {
 		System.out.println("Question:" +getQuestion());
 		System.out.println("Answer:" +getAnswers());
 	}
+
 }

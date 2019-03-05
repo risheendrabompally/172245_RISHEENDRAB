@@ -3,7 +3,7 @@
 
 <beans>
 
-<bean id="Triangle" class="com.practice.triangle.Triangle">
+<bean id="Triangle" class="com.practice.triangle.Triangle" autowire="byName">
 <property name="PointA" ref="PointA" />
 <property name="PointB" ref="PointB"/>
 <property name="PointC" ref="PointC"/>

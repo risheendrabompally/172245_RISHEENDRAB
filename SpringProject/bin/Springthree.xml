@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="questions" class="com.spring.two.Questionsset">
+<constructor-arg value="1"></constructor-arg>
+<constructor-arg value="Which movies do you like most?"/>
+<constructor-arg>
+<set>
+<value> yevade subramanyam </value>
+<value> happy days </value>
+<value> one </value>
+</set>
+</constructor-arg>
+</bean>
+</beans>
+
+
+
+
+
+
+

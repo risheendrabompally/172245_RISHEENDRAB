@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+
+<bean id="details" class="com.spring.three.BankAccount">
+<property name="accountId" value="12345"></property>
+<property name="accountHolderName" value="risheendra"></property>
+<property name="accountType" value="savings"></property>
+<property name="accountBalance" value="20000"></property>
+</bean>
+
+<bean id=""
+
+
+
+
+
+
+
+
+</beans>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
