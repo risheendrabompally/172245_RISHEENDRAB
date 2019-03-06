@@ -13,11 +13,6 @@ import com.Employee.service.Emp;
 public class EmpDaoImp implements EmpDao {
 
 	private JdbcTemplate jdbcTemplate;
-	
-
-	public JdbcTemplate getJdbcTemplate() {
-		return jdbcTemplate;
-	}
 
 	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
 		this.jdbcTemplate = jdbcTemplate;
@@ -26,26 +21,26 @@ public class EmpDaoImp implements EmpDao {
 	@Override
 	public List<Emp> getAll() {
 		String sql="select * from emp";
-		return this.jdbcTemplate.query( sql, new EmployeeMapper());
+		return jdbcTemplate.query( sql, new EmployeeMapper());
 	}
 		
 
 	@Override
 	public boolean insert(Emp e) {
-		String query="insert into emp values(?,?,?,?,?,?,?)";
-		  System.out.println("in insert1");  
+		String query="insert into emp values(?,?,?,?,?,?,?)";  
 		return jdbcTemplate.execute(query,new PreparedStatementCallback<Boolean>(){  
 		    @Override  
 		    public Boolean doInPreparedStatement(PreparedStatement ps)  
 		            throws SQLException, DataAccessException {  
-		            System.out.println("in insert");  
+		            
 		        ps.setInt(1,e.getEmpNo());  
 		        ps.setString(2,e.geteName());  
 		        ps.setString(3,e.getJob());  
-		        ps.setString(4, e.getMgr());
+		        ps.setInt(4, e.getMgr());
 		        ps.setDouble(5,e.getSal());
 		        ps.setDouble(6,e.getComm());
 		        ps.setInt(7, e.getDeptNo());
+		        System.out.println("values inserted"); 
 		        return ps.execute();  
 		    }          
 		    });
@@ -53,7 +48,7 @@ public class EmpDaoImp implements EmpDao {
 
 	@Override
 	public boolean delete(Emp e) {
-		String SQL = "delete from emp where empnum = "+e.getEmpNo();
+		String SQL = "delete from emp where empno = "+e.getEmpNo();
 	      this.jdbcTemplate.update(SQL);
 	      System.out.println("Deleted Record with ID = " + e.getEmpNo());
 		return true;
@@ -61,17 +56,32 @@ public class EmpDaoImp implements EmpDao {
 
 	@Override
 	public boolean update(Emp e) {
-		String updateQuery = "update emp set sal = ? where empnum = ?";
+		String updateQuery = "update emp set sal = ? where empno = ?";
 		this.jdbcTemplate.update(updateQuery, e.getSal(), e.getEmpNo());
 	return true;
 	}
 	
 	@Override
 	public List<Emp> employee(Emp e) {
-		String sql="select * from emp where empnum="+e.getEmpid();
+		String sql="select * from emp where empno="+e.getEmpNo();
 		return this.jdbcTemplate.query( sql, new EmployeeMapper());
 		
 	}
+
+	@Override
+	public List<Emp> OrderBy(Emp e) {
+		String sql="select * from emp ORDER BY empno";
+		return this.jdbcTemplate.query( sql, new EmployeeMapper());
+	}
+
+	@Override
+	public List<Emp> GroupBy(Emp e) {
+		
+		String sql="select * from emp GROUP BY empno";
+		return this.jdbcTemplate.query( sql, new EmployeeMapper());
+	}
+	
+	
 }
 	
 	

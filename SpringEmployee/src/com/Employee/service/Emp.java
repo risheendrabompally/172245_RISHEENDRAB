@@ -5,8 +5,7 @@ public class Emp {
 	private int empNo;
 	private String eName;
 	private String job;
-	private String mgr;
-	private String hireDate;
+	private int mgr;
 	private double sal;
 	private double comm;
 	private int deptNo;
@@ -15,13 +14,12 @@ public class Emp {
 		super();
 	}
 
-	public Emp(int empNo, String eName, String job, String mgr,String hireDate, double sal, double comm, int deptNo) {
+	public Emp(int empNo, String eName, String job, int mgr, double sal, double comm, int deptNo) {
 		super();
 		this.empNo = empNo;
 		this.eName = eName;
 		this.job = job;
 		this.mgr = mgr;
-		this.hireDate=hireDate;
 		this.sal = sal;
 		this.comm = comm;
 		this.deptNo = deptNo;
@@ -51,11 +49,11 @@ public class Emp {
 		this.job = job;
 	}
 
-	public String getMgr() {
+	public int getMgr() {
 		return mgr;
 	}
 
-	public void setMgr(String mgr) {
+	public void setMgr(int mgr) {
 		this.mgr = mgr;
 	}
 
@@ -81,14 +79,6 @@ public class Emp {
 
 	public void setDeptNo(int deptNo) {
 		this.deptNo = deptNo;
-	}
-	
-	public String getHireDate() {
-		return hireDate;
-	}
-
-	public void setHireDate(String hireDate) {
-		this.hireDate = hireDate;
 	}
 	
 }

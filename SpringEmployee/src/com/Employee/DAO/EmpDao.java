@@ -10,5 +10,7 @@ public interface EmpDao {
 	public boolean insert(Emp e);
 	public boolean delete(Emp e);
 	public boolean update(Emp e);
-
+	List<Emp> employee(Emp e);
+	public List<Emp> OrderBy(Emp e);
+	public List<Emp> GroupBy(Emp e);
 }
