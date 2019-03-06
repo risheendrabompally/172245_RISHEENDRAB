@@ -23,11 +23,11 @@ public class EmpTest {
        // d.insert(e);
        // d.delete(e);
     System.out.println("orderby" + d.OrderBy(e));
-    System.out.println("groupby" + d.GroupBy(e));
+   // System.out.println("groupby" + d.GroupBy(e));
         
         ServicesImpl ser=new ServicesImpl();
         
-       // ser.updateEmpSal(e);
+        ser.updateEmpSal(e);
         
         //ser.getMaxSal();
         
