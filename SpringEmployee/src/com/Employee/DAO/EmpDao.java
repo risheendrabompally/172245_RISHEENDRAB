@@ -1,12 +1,14 @@
 package com.Employee.DAO;
 
+import java.util.List;
+
+import com.Employee.service.Emp;
+
 public interface EmpDao {
 	
-	public void getAll();
-	public void insert();
-	public void delete();
-	public void orderBy();
-	public void groupBy();
-	public void update();
+	public List<Emp> getAll();
+	public boolean insert(Emp e);
+	public boolean delete(Emp e);
+	public boolean update(Emp e);
 
 }

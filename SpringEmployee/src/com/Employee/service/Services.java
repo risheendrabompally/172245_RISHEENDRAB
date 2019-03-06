@@ -1,29 +1,10 @@
 package com.Employee.service;
 
-public class Services {
-	
-	public void addEmp() {
-		
-	}
+import java.util.List;
 
-	public void deleteEmp() {
-		
-	}
+public interface Services {
 	
-	public void updateEmpSal() {
-		
-	}
-	
-	public void getEmp(int empNo) {
-		
-	}
-	
-	public void getMaxSal(String deptNo) {
-		
-	}
-	
-	public void getEmpWithoutComm() {
-		
-	}
-	
+	public boolean addEmp(Emp e);
+	public List<Emp> getEmp(Emp e);
+	public boolean updateEmpSal(Emp e);
 }
