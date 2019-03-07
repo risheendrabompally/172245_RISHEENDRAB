@@ -10,7 +10,7 @@ public class Test {
 	public static void main(String[] args) {
 	ApplicationContext ac=new ClassPathXmlApplicationContext("Spring.xml");
 	Shape s=(Shape) ac.getBean("Shape");
-	s.getCircle().setName("circle A");	 
+	s.getCircle();//.setName("circle A");	 
 	//System.out.println(s.getCircle().getName());
 	}
 

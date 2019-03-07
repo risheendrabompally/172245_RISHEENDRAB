@@ -5,12 +5,12 @@ import java.util.stream.Collectors;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
+import com.Employee.DAO.EmpDao;
 import com.Employee.DAO.EmpDaoImp;
 
 public class ServicesImpl implements Services {
 	ApplicationContext c=new ClassPathXmlApplicationContext("employee.xml");
-	 EmpDaoImp d=(EmpDaoImp)c.getBean("edao");
+	 EmpDao d=(EmpDao)c.getBean("edao");
 
 	@Override
 	public boolean addEmp(Emp e) {
@@ -21,13 +21,13 @@ public class ServicesImpl implements Services {
 
 	@Override
 	public List<Emp> getEmp(Emp e) {
-		return d.employee(e);
-		
+		return d.employee(e);	
 	}
 
 	@Override
 	public boolean updateEmpSal(Emp e) {
 	  d.update(e);
+	  System.out.println("updated");
 		return true;
 	}
 

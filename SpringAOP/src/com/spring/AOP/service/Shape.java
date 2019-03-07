@@ -1,5 +1,6 @@
 package com.spring.AOP.service;
 
+import com.spring.AOP.aspect.Loggable;
 import com.spring.AOP.model.Circle;
 import com.spring.AOP.model.Triangle;
 
@@ -7,7 +8,7 @@ public class Shape {
 	
 	private Circle circle;
 	private Triangle triangle;
-	 
+	@Loggable 
 	public Circle getCircle() {
 		return circle;
 	}
