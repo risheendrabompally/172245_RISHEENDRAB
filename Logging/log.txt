@@ -1,0 +1,80 @@
+Mar 07, 2019 11:50:07 AM com.logging.Test main
+SEVERE: Severe
+Mar 07, 2019 11:52:05 AM com.logging.Test main
+SEVERE: Severe
+Mar 07, 2019 11:52:05 AM com.logging.Test main
+INFO: Info
+Mar 07, 2019 11:52:05 AM com.logging.Test main
+WARNING: Warning
+Mar 07, 2019 11:52:05 AM com.logging.Test main
+CONFIG: Config
+Mar 07, 2019 11:52:05 AM com.logging.Test main
+FINE: fine
+Mar 07, 2019 11:52:29 AM com.logging.Test main
+SEVERE: Severe
+Mar 07, 2019 11:52:29 AM com.logging.Test main
+INFO: Info
+Mar 07, 2019 11:52:29 AM com.logging.Test main
+WARNING: Warning
+Mar 07, 2019 11:52:29 AM com.logging.Test main
+CONFIG: Config
+Mar 07, 2019 11:52:29 AM com.logging.Test main
+FINE: fine
+Mar 07, 2019 11:52:44 AM com.logging.Test main
+SEVERE: Severe
+Mar 07, 2019 11:52:44 AM com.logging.Test main
+INFO: Info
+Mar 07, 2019 11:52:44 AM com.logging.Test main
+WARNING: Warning
+Mar 07, 2019 11:52:44 AM com.logging.Test main
+CONFIG: Config
+Mar 07, 2019 11:52:44 AM com.logging.Test main
+FINE: fine
+Mar 07, 2019 11:53:35 AM com.logging.Test main
+SEVERE: Severe
+Mar 07, 2019 11:53:35 AM com.logging.Test main
+INFO: Info
+Mar 07, 2019 11:53:35 AM com.logging.Test main
+WARNING: Warning
+Mar 07, 2019 11:53:35 AM com.logging.Test main
+CONFIG: Config
+Mar 07, 2019 11:53:35 AM com.logging.Test main
+FINE: fine
+Mar 07, 2019 11:53:35 AM com.logging.Test main
+FINEST: finest
+Mar 07, 2019 11:53:53 AM com.logging.Test main
+SEVERE: Severe
+Mar 07, 2019 11:53:53 AM com.logging.Test main
+WARNING: Warning
+Mar 07, 2019 11:54:05 AM com.logging.Test main
+SEVERE: Severe
+Mar 07, 2019 11:54:05 AM com.logging.Test main
+INFO: Info
+Mar 07, 2019 11:54:05 AM com.logging.Test main
+WARNING: Warning
+Mar 07, 2019 11:59:49 AM com.logging.Test main
+SEVERE: Severe
+Mar 07, 2019 11:59:49 AM com.logging.Test main
+INFO: Info
+Mar 07, 2019 11:59:49 AM com.logging.Test main
+WARNING: Warning
+Mar 07, 2019 12:00:43 PM com.logging.Test main
+SEVERE: Severe
+Mar 07, 2019 12:00:43 PM com.logging.Test main
+INFO: Info
+Mar 07, 2019 12:00:43 PM com.logging.Test main
+WARNING: Warning
+Mar 07, 2019 12:00:43 PM com.logging.Test main
+CONFIG: Config
+Mar 07, 2019 12:01:41 PM com.logging.Test main
+SEVERE: Severe
+Mar 07, 2019 12:01:41 PM com.logging.Test main
+INFO: Info
+Mar 07, 2019 12:01:41 PM com.logging.Test main
+WARNING: Warning
+Mar 07, 2019 12:01:52 PM com.logging.Test main
+SEVERE: Severe
+Mar 07, 2019 12:01:52 PM com.logging.Test main
+INFO: Info
+Mar 07, 2019 12:01:52 PM com.logging.Test main
+WARNING: Warning
