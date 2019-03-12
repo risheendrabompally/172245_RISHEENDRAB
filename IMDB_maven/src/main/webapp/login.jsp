@@ -13,6 +13,6 @@
 <br><br>
 <a href=""><input type="submit" value="sign-in"></a>
 </form>
-If you are new user, please <a href="register.html">register</a>.
+If you are new user, please <a href="register.jsp">register</a>.
 </body>
 </html>

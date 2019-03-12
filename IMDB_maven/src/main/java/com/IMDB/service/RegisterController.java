@@ -19,6 +19,4 @@ public class RegisterController {
 	    mav.addObject("user", new Registeruser());
 	    return mav;
 	 } 
-	 
-	 
 }

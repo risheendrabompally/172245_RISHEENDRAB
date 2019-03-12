@@ -81,7 +81,7 @@ Nicole Kidman as Atlanna
 <h4>comments:</h4>
 <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
 </textarea>
-<span><a href="login.html"><input type="submit" value="Submit" onclick="login.html"></a></span>
+<span><a href="login.jsp"><input type="submit" value="Submit" onclick="login.jsp"></a></span>
 <div><br>
 <h4>Rating</h4>
 <div class="stars">

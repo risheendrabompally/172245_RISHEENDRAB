@@ -1,4 +1,4 @@
-package com.IMDB.wrapper;
+package com.IMDB.DAO;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

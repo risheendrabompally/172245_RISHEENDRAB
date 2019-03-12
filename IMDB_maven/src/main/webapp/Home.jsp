@@ -67,21 +67,21 @@
         <div class="panel-body">
         <img src="https://images.assettype.com/sakshipost/2019-02/307f1167-f801-4c85-9308-96996115259e/ntr_mahanayakudu.jpg" class="img-responsive" style="width:100%" alt="Image">
         </div>
-        <div class="panel-footer"> <a href="NTRMahanayakudu.html"> NTRMahanayakudu </a> </div> 
+        <div class="panel-footer"> <a href="NTRMahanayakudu.jsp"> NTR Mahanayakudu </a> </div> 
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-primary">
         <div class="panel-heading">TOLLYWOOD</div>
         <div class="panel-body"><img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201812/KGF_1.jpeg?XDNdocU9jQXe8ZV3uBtySGFNO7TOMHpr" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="kgf.html"> K.G.F: Chapter 1 </a></div>
+        <div class="panel-footer"><a href="kgf.jsp"> K.G.F: Chapter 1 </a></div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-primary">
         <div class="panel-heading">TOLLYWOOD</div>
         <div class="panel-body"><img src="https://data1.ibtimes.co.in/cache-img-750-381/en/full/706781/1547524250_f2-fun-frustration.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="f2.html">F2 – Fun and Frustration </a> </div>
+        <div class="panel-footer"><a href="f2.jsp">F2 - Fun and Frustration </a> </div>
       </div>
     </div>
   </div>
@@ -93,21 +93,21 @@
       <div class="panel panel-danger">
         <div class="panel-heading">BOLLYWOOD</div>
         <div class="panel-body"><img src="https://static-news.moneycontrol.com/static-mcnews/2019/01/Gully-Boy-770x432.jpg" class="img-responsive" style="width:100%" alt="Image"><a href="Gullyboy.html"></a></div>
-        <div class="panel-footer"> <a href="Gullyboy.html"> Gully Boy </a> </div>
+        <div class="panel-footer"> <a href="Gullyboy.jsp"> Gully Boy </a> </div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-danger">
         <div class="panel-heading">BOLLYWOOD</div>
         <div class="panel-body"><img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2019/02/total-dhamaal-movie-review-india-tv-1550831932.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="totaldhamaal.html">Total Dhamaal</a></div>
+        <div class="panel-footer"><a href="totaldhamaal.jsp">Total Dhamaal</a></div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-danger">
         <div class="panel-heading">BOLLYWOOD</div>
         <div class="panel-body"><img src="https://i.ytimg.com/vi/I4us61OrzM8/maxresdefault.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="manikarnika.html">Manikarnika</a></div>
+        <div class="panel-footer"><a href="manikarnika.jsp">Manikarnika</a></div>
       </div>
     </div>
   </div>
@@ -119,21 +119,21 @@
       <div class="panel panel-success">
         <div class="panel-heading">HOLLYWOOD</div>
         <div class="panel-body"><img src="https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2019/01/04/105660734-1546632883595screen-shot-2019-01-04-at-3.14.18-pm.530x298.jpg?v=1546632940" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"> <a href="Aquaman.html"> Aqua man </a> </div>
+        <div class="panel-footer"> <a href="Aquaman.jsp"> Aqua man </a> </div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-success">
         <div class="panel-heading">HOLLYWOOD</div>
         <div class="panel-body"><img src="https://s3.amazonaws.com/prod.assets.thebanner/styles/article-large/s3/article/large/Graphic_2018-11-15_green-book.jpg?itok=NxxFwY8m" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="greenbook.html">Green book</a></div>
+        <div class="panel-footer"><a href="greenbook.jsp">Green book</a></div>
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-success">
         <div class="panel-heading">HOLLYWOOD</div>
         <div class="panel-body"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/04/aveng-infinwar-logo-800x417.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer"><a href="avengers.html">Avengers: Infinity War</a></div>
+        <div class="panel-footer"><a href="avengers.jsp">Avengers: Infinity War</a></div>
       </div>
     </div>
   </div>

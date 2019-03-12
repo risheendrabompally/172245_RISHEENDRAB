@@ -19,6 +19,6 @@
 <input type="submit" value="Register">
 </form>
 <br>
-If you are registered user, please <a href="login.html">login</a>.
+If you are registered user, please <a href="login.jsp">login</a>.
 </body>
 </html>

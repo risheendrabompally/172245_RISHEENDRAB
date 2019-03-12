@@ -40,6 +40,6 @@ Tom Hiddleston as Loki
 <p><h4>comments:</h4></p>
 <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
 </textarea>
-<a href="login.html"><input type="submit" value="Submit" onclick="login.html"></a>
+<a href="login.jsp"><input type="submit" value="Submit" onclick="login.jsp"></a>
 </body>
 </html>
